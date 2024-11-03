@@ -1,0 +1,33 @@
+body{
+     box-sizing: border-box;
+     background-color: #8c5c5c;
+     display: flex;
+     justify-content: center;
+    }
+.container{
+    width: 150px;
+    height:150px;
+    padding: 50vh;
+    display:flex;
+    justify-content: center;
+    
+}
+.main {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: repeat(3,25%);
+    grid-template-rows: 100px;
+    justify-content: space-between;
+    background-color: #eee;
+    
+}
+.input{
+    grid-column: span 2;
+
+    height: 100px;
+
+}
